@@ -1,0 +1,164 @@
+#Wrapper{
+	#LayoutColumn1{
+
+	}
+	#LayoutColumn2{
+		#ProductDetails{
+			.BlockContent{
+				h2{
+					font-weight: bold;
+    			font-size: 21px;
+				}
+				.AddThisButtonBox{
+					display: none;
+				}
+				.ProductThumb{
+					margin: 0 -10px;
+			    background-color: #F5F2E1;
+			    width: auto !important;
+			    height: auto !important;
+			    text-align: center;
+			    padding: 20px 10px;
+			    margin-bottom: 20px;
+			    .ProductThumbImage{
+			    	display: inline-block;
+				    padding: 0 20px;
+				    background-color: white;
+				    border-radius: 5px;
+			    }
+			    .ImageCarouselBox{
+			    	text-align: center;
+			    	#ImageScrollNext{
+			    		display: none;
+			    	}
+				    .ProductTinyImageList{
+				    	margin-top: 10px !important;
+  						background-color: white;
+				    }
+			    }
+
+				}
+				.ProductMain{
+					border: 1px solid #CDCDCD;
+			    overflow: hidden;
+			    padding: 10px;
+			    background: #f2f4f7;
+			    line-height: 24px;
+				}
+			}
+		}
+		#ProductDescription{
+			margin-bottom: 5px;
+			h3{
+				font-weight: bold;
+    		font-size: 18px;
+			}
+			.ProductDescriptionContainer{
+
+			}
+		}
+		#ProductByCategory{
+			h3{
+				font-weight: bold;
+    		font-size: 18px;
+			}
+		}
+		#ProductReviews{
+			h3{
+				font-weight: bold;
+    		font-size: 18px;
+			}
+		}
+		#SimilarProductsByCustomerViews{
+			h3{
+				font-weight: bold;
+    		font-size: 18px;
+			}
+			.BlockContent{
+				ul{
+    			margin: 0;
+    			padding: 0;
+    			li{
+    				background-color: #f0f0f0;
+				    border: 1px solid #e5e5e5;
+				    // width: auto !important;
+				    // height: auto !important;
+				    width: 350px !important;
+				    height: 150px !important;
+				    padding: 8px;
+				    margin-bottom: 10px;
+				    position: relative;
+				    .ProductImage{
+				    	float: left;
+					    margin-right: 10px;
+					    background-color: #fff;
+					    text-align: center;
+					    a{
+					    	display: table-cell;
+						    vertical-align: middle;
+						    height: 120px;
+						    img{
+						    	max-width: 120px;
+    							max-height: 120px;
+						    }
+					    }
+				    }
+				    .ProductDetails{
+				    	margin-bottom: 2px;
+    					height: auto !important;
+    					strong{
+    						a{
+    							color: #075899;
+    						}
+    					}
+				    }
+				    .ProductPriceRating{
+				    	height: auto !important;
+				    	span{
+				    		display: block;
+				    	}
+				    }
+				    .ProductCompareButton{
+				    	display: none;
+				    }
+				    .ProductActionAdd{
+				    	position: absolute !important;
+					    bottom: 10px;
+					    left: 140px;
+					    height: 35px;
+					    padding: 9px 7px 5px 7px;
+					    margin: 0 0 20px 0;
+					    font-size: 13px;
+					    display: block;
+					    cursor: pointer;
+					    width: auto;
+					    // padding: 10px;
+					    line-height: 1.4;
+					    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+					    font-weight: bold;
+					    text-align: center;
+					    text-decoration: none;
+					    border: 0;
+					    border-radius: 5px;
+					    transition: opacity,0.2s,ease-out;
+					    // position: relative;
+					    min-width: 120px;
+					    min-height: 20px;
+					    background-color: #852201;
+					    // border: 1px solid #2a1205;
+					    color: white;
+					    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9), 0 -1px 2px rgba(250, 250, 250, 0.8);
+					    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+					    // font-weight: normal;
+					    // font-size: 14px;
+					    // padding: 5px;
+					    a{
+					    	color: white !important;
+					    }
+				    }
+    			}
+				}
+			}
+		}
+	}
+}

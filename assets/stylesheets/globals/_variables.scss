@@ -1,0 +1,55 @@
+// Variables
+
+$spacing-mini: 5px;
+$spacing-box: 10px; // for box-like spacing, like button padding
+$spacing-para: 15px; // for vertical rhythm, e.g. bottom margin for p, img, togglers, boxes, etc.
+
+$color-danger: #F00; // red
+$color-input-border: #d4d4d4; // gray
+$color-link: #00F; // blue
+
+$base-font-family: sans-serif;
+$base-font-size: 14px;
+$base-border-input: 1px solid $color-input-border;
+$base-border-radius: 3px;
+
+// colors
+$color1: #B03B01; // header color
+$color2: #075899; // link color
+$grad1:  'top, #852201, #6a1b00'; // link color
+$border1 : #075899;
+$spacing : 10px;
+$text_color: black;
+$text_shadow: #075899;
+$font_family: sans-serif;
+$h3_size: 14px;
+$link_color: #075899;
+
+$font_size: 14px;
+$border2: #075899;
+$color5: #075899;
+$color6: #075899;
+
+// #Header {
+//   background: $color1;
+// }
+#Header {
+  background: $color1;
+  a {
+    color: $color2;
+  }
+}
+#Header {
+  #SearchForm {
+    @include background(linear-gradient(top, #852201, #6a1b00));
+  }
+}
+
+#Wrapper{
+	#SideCategoryShopByPrice{
+		background: $color1;
+	}
+	#SideShopByBrand{
+		background: $color1;
+	}
+}
